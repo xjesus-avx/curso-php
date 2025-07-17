@@ -31,7 +31,7 @@ curl_close($ch);
    
         <h2>La proxima pelicula de marvel</h2>
         <pre style="font-size: 8px; overflow:scroll; height:250px;">
-            //<?php var_dump($data);?>
+            <?php //var_dump($data);?>
         </pre>
     <section>
         <img src="<?= $data["poster_url"];?>" width="300" alt="Poster de <?= $data["title"]; ?>"
@@ -44,6 +44,7 @@ curl_close($ch);
     </hgroup>
     <p>La siguiente pelicula es: <?=$data["following_production"]["title"] ?> </p>
     <img src="<?=$data["following_production"]["poster_url"] ?>" style="width: 100px" />
+    <h1>mira amorcita.. :)</h1>
 
 </main>
 
