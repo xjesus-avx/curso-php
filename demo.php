@@ -31,7 +31,7 @@ curl_close($ch);
    
         <h2>La proxima pelicula de marvel</h2>
         <pre style="font-size: 8px; overflow:scroll; height:250px;">
-            <?php var_dump($data);?>
+            //<?php var_dump($data);?>
         </pre>
     <section>
         <img src="<?= $data["poster_url"];?>" width="300" alt="Poster de <?= $data["title"]; ?>"
